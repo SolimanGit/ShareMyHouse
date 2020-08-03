@@ -1,0 +1,116 @@
+@@font-face {
+    font-family: 'Quicksand';
+    src: url('css/font/Quicksand-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body,html{
+  margin:0;
+  padding:0;
+}
+
+h2{
+  font-family: Quicksand;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h3{
+  font-family: Quicksand;
+  text-align: center;
+}
+p{
+  font-family: Quicksand;
+}
+.menu_bis{
+  width:70%;
+  margin: auto;
+}
+
+.choix{
+  display: flex;
+  width: 50%;
+  height:auto;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 8px 7px 2px 1px rgb(110, 110, 110);
+}
+
+.converse  a{
+  display:block;
+  width:250px;
+  line-height:50px;
+  text-align:center;
+  vertical-align:middle;
+  border-radius: 20px;
+  text-decoration:none;
+  background-color: #40407a;
+  color: white;
+}
+.messages {
+  display: block;
+  border-radius: 20px;
+  background-color: #40407a;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.messages p{
+  margin-left: 100px;
+  color: white;
+}
+
+.image_choix{
+  width: 200px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.image{
+  width: 200px;
+}
+
+.choix p{
+  margin: auto auto;
+  line-height: 50%;
+  font-family: Quicksand;
+  font-size: 15px;
+}
+
+.choix th{
+  text-align: left;
+}
+
+.choix td{
+  padding: 5px;
+  margin: auto;
+}
+
+textarea{
+  margin: 50px 33%;
+  resize: vertical;
+}
+.submit_textearea{
+  margin-left: 48%;
+  margin-right: auto;
+}
+
+.intable table td{
+  border-collapse: collapse;
+}
+
+.intable td{
+  text-align: center;
+  padding: 10px;
+}
+
+.tabprofil td{
+  text-align:right;
+}
